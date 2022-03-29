@@ -32,9 +32,9 @@ public class SplitGraphSequence {
 	public void run() throws NumberFormatException, IOException {
 		input();
 		testInput(15000,0.1, 0.023);
-		System.out.println("to g1 exei edges" + g1.edgeList().size());
-		System.out.println("to g2 exei edges" + g2.edgeList().size());
-		System.out.println("to f exei " + f.size());
+		System.out.println("g1  edges " + g1.edgeList().size());
+		System.out.println(" g2  edges " + g2.edgeList().size());
+		System.out.println(" f edges " + f.size());
 		start2 = System.currentTimeMillis();
 		j = f.size();
 		findT();
