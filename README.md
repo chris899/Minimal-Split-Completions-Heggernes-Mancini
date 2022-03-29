@@ -1,5 +1,6 @@
 # Minimal-Split-Completions-Heggernes-Mancini
 An implementation of the algorithms about Minimal Split Completion proposed by Heggernes and Mancini [1].
+
 The algorithms was implemented in Java.
 
 In the mainclass you can choose to run one of the three algorithms.
