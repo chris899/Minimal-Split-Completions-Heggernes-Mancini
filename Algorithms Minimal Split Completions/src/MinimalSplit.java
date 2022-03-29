@@ -150,7 +150,7 @@ public class MinimalSplit {
 		}
 	}
 	private void input() throws NumberFormatException, IOException{
-		try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Chris\\Desktop\\minimalSplit Input.txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("*****************"))) {
 		    String line;
 		    int vertices = Integer.parseInt(br.readLine());
 		    for(int i = 1; i <= vertices; i++) {
