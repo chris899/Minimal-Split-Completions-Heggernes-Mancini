@@ -49,8 +49,6 @@ public class ExtractMinimal {
 		}
 		m  = h;
 		f_ = f;
-		//System.out.println("to g exei tosa edges: " + g.edgeList().size());
-		//System.out.println("to h exei tosa edges: " + h.edgeList().size());
 		List<Pair<String,String>> empty = new ArrayList<Pair<String,String>>();
 		constructDegrees();
 		minimal = false;
@@ -88,12 +86,9 @@ public class ExtractMinimal {
 		/*for(Edge edge : graph.getEdges2().keySet()) {
 			System.out.print(edge.getFirstEndpoint().getId() + "-" + edge.getSecondEndpoint().getId() + ", ");
 		}*/
-		System.out.println("to f' exei tosa edges: " + f_.size());
-		//System.out.println("to g exei tosa edges: " + g.edgeList().size());
-		System.out.println("to h exei tosa edges: " + h.edgeList().size());
-		//System.out.println("to graph exei tosa edges: " + graph.getEdges2().size());
+		System.out.println("f' edges: " + f_.size());
+		System.out.println("h edges: " + h.edgeList().size());
 		int total =  h.edgeList().size()-f_.size();
-		//System.out.println("total " + total);
 		System.out.println("deleted edges " + deletededges);
 		System.out.println("g edges: " + total);
 		int left = f_.size() - deletededges;
