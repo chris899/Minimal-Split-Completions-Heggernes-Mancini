@@ -65,15 +65,7 @@ public class MinimalSplit {
 		System.out.println("Elapsed Time in milli seconds: "+ (end2-start2));
 		System.out.println("Elapsed Time in seconds: "+ (end2-start2)/1000);
 		// adding fill edges to make K set into a clique
-		//File file = new File("C:\\Users\\Chris\\Desktop\\sample.txt");
-		//PrintStream stream = new PrintStream(file);
-		//PrintStream temp = System.out;
-		//System.setOut(stream);
-		//System.out.println("K = " + K);
 		System.out.println("K = " + K.size());
-		//stream.close();
-		//System.setOut(temp);
-		//System.out.println("I = " + I);
 		System.out.println("I = " + I.size());
 		//System.out.print("FillEdges = [");
 		//addFillEdges();	
