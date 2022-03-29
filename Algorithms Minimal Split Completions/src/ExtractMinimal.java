@@ -349,7 +349,7 @@ public class ExtractMinimal {
 	}
 
 	private void input() throws NumberFormatException, IOException{
-		try (BufferedReader br = new BufferedReader(new FileReader("C:\\Users\\Chris\\Desktop\\ExtractMinimal Input.txt"))) {
+		try (BufferedReader br = new BufferedReader(new FileReader("***************"))) {
 		    String line;
 		    int j = 0;
 		    int vertices = Integer.parseInt(br.readLine());
